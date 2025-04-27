@@ -24,7 +24,7 @@ Example of the use of the DES algorithm on the CEC2017 optimisation benchmark fu
 DES(rep(0,10),fn=function(x){cec2017(1,x)}) 
 
 #100 dimensions, function 30
-DES(rep(0,100),fn=function(x){cec2017(1,x)}) 
+DES(rep(0,100),fn=function(x){cec2017(30,x)}) 
 ```
 ## License
 The use of the DES method for scientific purposes requires citation to: [Toward a Matrix-Free Covariance Matrix Adaptation Evolution Strategy in IEEE Transactions on Evolutionary Computation, doi: 10.1109/TEVC.2019.2907266](https://ieeexplore.ieee.org/document/8673614)
